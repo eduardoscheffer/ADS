@@ -1,0 +1,6 @@
+As regras de comnicação são os protocolos;
+    - https = seguro;
+    - TCP/IP = protocolo;aberto (outras empresa menores podem usar pra desenvolver suas tecnologias);
+    - IPv4 encheu (+ de 4 bilhões de protocolos disponíveis);
+    - IPv6, divide o endereço em oito grupos de 16 bits com letras e numeros;
+    

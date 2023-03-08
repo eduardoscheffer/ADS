@@ -1,0 +1,20 @@
+O que são redes de computores?
+	Dois ou mais dispositivos conectados entre si, capazes de trocar informações por meio de protocolos.
+
+Tipos de redes de computadores?
+	PAN (Personal Area Network)
+
+	LAN (Local Area Network)
+		É uma rede de comunicação de dados localizada em uma área geográfica próxima. Na maioria das vezes, pertencente a uma mesma entidade ou empresa, por exemplo: um escritório, uma escola, ou um complexo de prédios.
+		Caracteristicas: {
+			Altas taxas de transmissão;
+			Baixas taxas de erro (1 erro a cada 10¹¹ bits transmitidos);
+			Propriedade privada;
+			Geograficamente limitadas.
+		}
+	MAN (Metropolitan Area Nerwork)
+		Uma rede metropolitana apresenta características semelhantes às redes locais, sendo que as MANs, em geral, cobrindo distâncias maiores do que as LANs. Um bom exemplo de MAN são as redes de TV a cabo.
+
+	WAN (Wide Area Network)
+		Surgiu da necessidade de se compartilhar recursos especializados por uma maior comunidade de usuários geograficamente dispersos. Por ter um custo de comunicação bastante elevado, tais redes são, em geral, públicas, isto é, o sistema de comunicação é mantido e de propriedade de terceiros.
+	
