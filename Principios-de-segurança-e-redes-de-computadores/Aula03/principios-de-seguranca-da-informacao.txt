@@ -1,0 +1,22 @@
+AULA DO DIA 11/03/23
+
+OBJETIVOS DA SEGURANÇA
+    Para que estas medidas sejam adotadas de maneira correta, devem-se levar em conta cinco conceitos também chamados de atributos: Integridade disponibilidade, Confidencialidade, Autenticidade, Não Repudio.
+
+SUSTENTAÇÃO DA SEGURANÇA
+    Os principais pontos de equilíbrio de um sistema são: Mecanismos, Políticas e Cultura
+
+ANÁLISE DE RISCOS
+    Análise de risco é a capacidade de detectar possíveis falhas no sistema que possam agregar prejuízo a informação ou o sistema em si.
+    risco = vulnerabilidade x ameaça x impacto
+
+ATACANTES:
+    Hacker
+    Script Kid
+    
+ANATOMIA DE UM ATAQUE:
+    Um ataque divide-se em basicamente quatro etapas:
+    1- Levantamento de Informações: consiste em obter o maior número de dados possíveis sobre o alvo com o objetivo usar a análise destes dados contra o próprio alvo.
+    2 - Obtenção e teste de ferramentas: Após descobrir as vulnerabilidades de um sistema a próxima etapa é procurar ferramentas que ataquem os pontos fracos encontrados. Normalmente é testado em um sistema em paralelo ao que será atacado, com o objetivo de não levantar suspeitas por parte do alvo.
+    3 - Aplicação contra o alvo: após obter sucesso nas duas etapas anteriores, chega a hora de efetuar o ataque propriamente dito. É quase impossível que o atacante consiga na primeira vez, por isso ele irá tentar várias e várias vezes e é nesse momento que o administrador do sistema pode conseguir detectar o invasor.
+    4- Exploração dos resultados: após obter sucesso no ataque o invasor ira explorar os resultados obtidos, esta etapa dependerá muito da motivação do invasor e qual o objetivo dele em invadir este sistema.
