@@ -90,24 +90,39 @@ def exercise11():
 # exercise11()
 
 # 12. Calcule a área de um círculo de raio 4cm. Considere a fórmula Área = π x raio2.
-
+def exercise12():
+    import math
+    raio_do_circulo = float(input('Qual o raio do circulo em cm? '))
+    area_do_circulo = (math.pi * (raio_do_circulo ** 2))
+    print(f'A área do circulo é {area_do_circulo}cm²')
+# exercise12()
 
 # 13. Uma loja de brinquedos está com uma promoção de 30% de desconto em um boneco que custa R$ 60.
 # Qual é o preço do boneco com desconto?
-
+def exercise13():
+    print(f'O preço do brinquedo com 30% de desconto é de R${60 - (60 * (30 / 100))}')
+# exercise13()
 
 
 # 14. Um carro faz 12km por litro de gasolina. Se ele percorrer uma distância de 360km, quantos litros de
 # gasolina ele gastará?
-
+def exercise14():
+    print(f'O carro gastou {360 / 12}L')
+# exercise14()
 
 # 15. Uma pessoa está organizando uma festa e precisa de 1,5 litros de refrigerante para cada convidado. Se
 # ela convidou 30 pessoas, quantos litros de refrigerante ela precisará?
-
+def exercise15():
+    print(f'A pessoa precisará de {1.5 * 30} litros de refrigerantes')
+# exercise15()
 
 # 16. Calcule o perímetro de um quadrado de lado 5cm.
-
+def exercise16():
+    print(f'O perimetro de um quadrado de lado 5cm é {5 * 4} cm²')
+# exercise16()
 
 # 17. Uma pessoa tem R$ 500 em sua conta corrente e precisa pagar uma conta de R$ 150 e
 # outra de R$ 300. Qual é o saldo final da conta corrente?
-
+def exercise17():
+    print(f'O saldo final é de R${500 - 150 - 300}')
+# exercise17()
