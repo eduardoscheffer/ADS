@@ -1,0 +1,6 @@
+MODEM:
+    Transforma uma onda analógica pra uma onda quadrada (pega o sinal modular e modula)
+HUB:
+    Conceito de barra. PC conecta na rede por uma barra horizontal
+SWITCH:
+    Várias portas onde cada máquina se conecta em uma porta
