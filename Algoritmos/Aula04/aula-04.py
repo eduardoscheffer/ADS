@@ -31,8 +31,8 @@ numero = numero % 0.25
 dez_centavos = int(numero / 0.10)
 numero = numero % 0.10
 
-um_centavo = int(numero / 0.1)
-numero = numero % 0.1
+um_centavo = int(numero / 0.01)
+numero = numero % 0.01
 
 print(f'Vai precisa de {nota_100} notas de cem')
 print(f'Vai precisa de {nota_cinquenta} notas de cinquenta')
