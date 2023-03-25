@@ -1,0 +1,3 @@
+CODIGOS MALICIOSOS:
+    Tipos principais:
+        Virus: Pra ser virus depende da execução do prograna/arquivo hospedeiro;
