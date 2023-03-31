@@ -23,12 +23,11 @@
     .topo span{ /*Estilizando o span dentro do cabeçalho*/
     margin: 0 20px;
     padding-top: 10px;
-    display: inline-block; /* alterando os display para alterar altura */
+    display: inline; /* alterando os display para alterar altura */
     }
     .topo img{ /*Estilizando o ícone da classe cabeçalho*/
-    height: 20px;
-    
-    width: 20px;
+    height: 50px;
+    width: 40px;
     }
     .perfil{ /*Definindo uma altura e borda inferior para classe perfil.*/
     height: 200px;
