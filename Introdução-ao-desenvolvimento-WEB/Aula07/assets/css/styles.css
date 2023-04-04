@@ -21,7 +21,7 @@
     margin-top: 35px;
 }
 
-.grupos {
+.grupos, .gols {
     width: 60%;
     /* border: 1px solid; */
     margin: 0 auto;
@@ -76,4 +76,23 @@ th {
 
 .w200 {
     width: 200px;
+}
+
+.img-jogador {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.w40 {
+    width: 40px;
+
+}
+
+.gols img {
+    margin-right: 25px;
+}
+
+.gols h3 {
+    margin-top: 50px;
 }
