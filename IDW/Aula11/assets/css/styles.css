@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /*Justifica ao centro*/
+    background-color: rgb(103, 148, 148);
+    /* flex-wrap: wrap; */
+    align-items: center; /*Alinha ao centro*/
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 20px;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: darkgoldenrod;
+    }
+
+    .item {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
