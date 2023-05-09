@@ -32,30 +32,93 @@
 
 # 1. Escreva um programa que receba uma lista de números do usuário e retorne o maior número
 # presente na lista.
+def exercise_1():
+    import random
+    random_list = random.sample(range(0, 100), 10)
+    max_number = max(random_list)
+    print(max_number)
+# exercise_1()
 
 # 2. Escreva um programa que receba uma lista de números do usuário e retorne o menor número
 # presente na lista.
+def exercise_1():
+    import random
+    random_list = random.sample(range(0, 100), 10)
+    max_number = min(random_list)
+    print(max_number)
+# exercise_1()
 
 # 3. Escreva um programa que receba uma lista de números do usuário e retorne a soma de todos os
 # números presentes na lista.
+def exercise_3():
+    import random
+    random_list = random.sample(range(0, 100), 10)
+    sum_list = sum(random_list)
+    print(sum_list)
+# exercise_3()
 
 # 4. Escreva um programa que receba uma lista de números do usuário e retorne a quantidade de
 # números pares presentes na lista.
+def exercise_4():
+    import random
+    random_list = random.sample(range(0, 100), 10)
+    even_list = list(filter(lambda x: x % 2 == 0, random_list))
+    print(f'A lista {even_list} contém {len(even_list)} números pares')
+# exercise_4()
 
 # 5. Escreva um programa que receba uma lista de números do usuário e retorne a quantidade de
 # números ímpares presentes na lista.
+def exercise_5():
+    import random
+    random_list = random.sample(range(0, 100), 10)
+    even_list = list(filter(lambda x: x % 2 != 0, random_list))
+    print(f'A lista {even_list} contém {len(even_list)} números ímpares')
+# exercise_5()
 
 # 6. Escreva um programa que receba uma lista de números do usuário e retorne uma lista com
 # apenas os números pares presentes na lista.
+def exercise_6():
+    import random
+    random_list = random.sample(range(0, 100), 10)
+    even_list = list(filter(lambda x: x % 2 == 0, random_list))
+    print(random_list)
+    print(even_list)
+# exercise_6()
 
 # 7. Escreva um programa que receba uma lista de números do usuário e retorne uma lista com
 # apenas os números ímpares presentes na lista.
+def exercise_7():
+    import random
+    random_list = random.sample(range(0, 100), 10)
+    odd_list = list(filter(lambda x: x % 2 != 0, random_list))
+
+    print(random_list)
+    print(odd_list)
+# exercise_7()
 
 # 8. Escreva um programa que receba uma lista de nomes do usuário e retorne o nome mais longo
 # presente na lista.
+def exercise_8():
+    nomes_usuarios = ['eduardo', 'maria', 'joao', 'Mariana', 'Pedro', 'Joao Pedro']
+    # max_user_length = max(nomes_usuarios, key=len)
+    # print(max_user_length)
+
+    max_str = nomes_usuarios[0]
+    for name in nomes_usuarios:
+        if len(name) > len(max_str):
+            max_str = name
+    
+    print(max_str)
+
+# exercise_8()
 
 # 9. Escreva um programa que receba uma lista de números do usuário e retorne a média dos
 # números presentes na lista.
+def exercise_9():
+    numeros = [32, 443, 443, 43, 78, 32, 382, 2411]
+    media = sum(numeros) / len(numeros)
+    print(f'A média da lista {numeros} é {media:.2f}')
+exercise_9()
 
 # 10. Escreva um programa que receba uma lista de números do usuário e retorne uma lista com
 # apenas os números que são múltiplos de 3 e 5 simultaneamente.
