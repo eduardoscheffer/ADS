@@ -3,3 +3,16 @@ git status
 git add .
 git commit -m 'mensagem'
 git checkout <nome da branch>
+
+
+// ----------------- //
+
+[Algarismo * Base ^ index] USADO PRA BASE 2,8,16 PRA BASE 10
+
+(10)2 -> (x)10:
+0 * 2^0 = 0 
+1 * 2^1 = 2 
+
+x = 0 + 2 = 2
+
+
