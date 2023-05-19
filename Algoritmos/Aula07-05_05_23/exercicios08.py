@@ -182,11 +182,11 @@ def exercise_14():
 # 15. Escreva um programa que receba uma lista de números do usuário e retorne uma lista sem
 # duplicatas.
 def exercise_15():
-    user_list = ['eduardo', 'mengue', 'scheffer', 'joao', 'maria', 'eduardo', 'maria']
+    user_list = ['eduardo', 'mengue', 'mengue', 'scheffer', 'joao', 'maria', 'eduardo', 'maria']
     new_list = []
 
     for i, nome in enumerate(user_list):
         if user_list.index(nome) == i:
             new_list.append(nome)
     print(new_list)
-# exercise_15()
+exercise_15()
