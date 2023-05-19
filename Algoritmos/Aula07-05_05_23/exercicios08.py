@@ -189,4 +189,4 @@ def exercise_15():
         if user_list.index(nome) == i:
             new_list.append(nome)
     print(new_list)
-exercise_15()
+# exercise_15()
