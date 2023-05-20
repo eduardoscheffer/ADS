@@ -135,10 +135,16 @@ def exercise_10():
 # nomes possuem a mesma quantidade de caracteres.
 def exersise_11():
     import random
-    random_list = ['eduardo', 'maria', 'eduardo', 'eduardo']
+    random_list = ['eduardo', 'eduardo', 'maria', 'eduardo']
+    nova_lista = []
 
-    print(len(random_list[0]) == len(random_list[1]))
-
+    for item in random_list:
+        tamanho = len(item)
+        nova_lista.append(tamanho)
+    if sum(nova_lista) / tamanho == len(random_list):  # se o tamanho da nova lista, divido pelo tamanho do item for igual ao tamanho da nova lista
+        print('Tamanhos iguais')
+    else:
+        print('Tamanhos diferentes')
 # exersise_11()
 
 # 12. Escreva um programa que receba uma lista de números do usuário e retorne uma lista com
