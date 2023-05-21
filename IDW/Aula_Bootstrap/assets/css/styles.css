@@ -2,3 +2,8 @@ img:hover {
     transform: scale(1.05);
     margin: 5px;
 }
+
+.carousel img:hover {
+    transform: scale(1.00);
+    margin: 0px;
+}
