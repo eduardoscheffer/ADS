@@ -55,6 +55,6 @@ def atualiza_aluno():
         
 
 
-atualiza_aluno() # chama a função pra ser executada
+atualiza_aluno() # chama a função pra ser executadaa
 print(alunos) # printa a nova lista de alunos atualizada
 
