@@ -1,3 +1,8 @@
+# Utilizei 3 módulos pro algoritmo:
+# psutil - pra manipular informações do sistema operacional e da máquina;
+# math - pra truncar alguns valores;
+# Timer - pra fazer a execução da opção de saída após x segundos. Parecido com o setInterval do JS pra quem ja ouviu falar;
+
 import psutil # importa psutil pro código (após instalar - pip install psutil - na pasta do projeto)
 from threading import Timer # importa a funcao Timer
 import math # importa a biblioteca math
@@ -13,7 +18,7 @@ def print_battery_percentage():
 # print(psutil.sensors_battery().secsleft) printa o tempo (em segundos) restante de bateria
 def print_secs_battery_left():
     minutos_restantes = psutil.sensors_battery().secsleft // 60
-    
+
     # cálculo dos segundos restantes de bateria na máquina
     # (valor quebrado - valor inteiro) * 60:
     segundos_restantes = ((psutil.sensors_battery().secsleft / 60) - (psutil.sensors_battery().secsleft // 60)) * 60
