@@ -1,0 +1,31 @@
+.error-text {
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    /* margin-bottom: 40px; */
+}
+
+.aprovado {
+    font-size: 24px;
+    font-family: 'Lucida Sans';
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.reprovado {
+    font-size: 24px;
+    font-family: 'Lucida Sans';
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.fs-1 {
+    font-size: 104px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(118, 216, 27, 0.373);
+    width: 25%;
+    margin: auto;
+    margin-top: 10px;
+}
