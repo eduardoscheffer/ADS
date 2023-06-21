@@ -1,0 +1,12 @@
+COMPUTADOR = maquina que realiza tarefas de forma rápida e precisa;
+    PASCALINE = primeira máquina de se calcular que se tem registro;
+
+MODELO DE VON NEUMAN = {
+
+    entrada: entra pelas maiorias dos periféricos - mouse, teclado, webcam, 
+    processamento: modelo do processador, 
+    memoria: memoria RAM, HD/SSD, 
+    saida: o que é apresentado na tela
+
+} 
+
