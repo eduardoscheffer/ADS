@@ -145,6 +145,20 @@ def exersise_11():
         print('Tamanhos iguais')
     else:
         print('Tamanhos diferentes')
+
+# def exersise_11():
+#     nomes_list = ['paulo', 'paulo', 'eduardo', 'paulo', 'paulo', 'paulo', 'paulo']
+#     len_primeiro = len(nomes_list[0])
+#     iguais = False
+
+#     for nome in nomes_list:
+#         if len(nome) == len_primeiro:
+#             iguais = True
+#             len_primeiro = len(nome)
+#         else:
+#             iguais = False
+#             len_primeiro = len(nome)
+#     return iguais
 # exersise_11()
 
 # 12. Escreva um programa que receba uma lista de números do usuário e retorne uma lista com
