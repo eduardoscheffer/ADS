@@ -31,7 +31,7 @@ class Program
                 .Select(val => double.Parse(val))
                 .ToList();
 
-        Console.Write($"Soma = {letras[0] + letras[1]}\nSubtracao = {-1 * (letras[0] - letras[1])}.\nMultiplicacao = {letras[0] * letras[1]}\nExponenciacao {letras[0]}^{letras[1]} = {Math.Pow(letras[0], letras[1])}\nDivisao = {letras[0] / letras[1]}\nModulo {letras[0]} = {Math.Abs(letras[0])}, Modulo {letras[1]} = {Math.Abs(letras[1])}");
+        Console.Write($"Soma = {letras[0] + letras[1]}\nSubtracao = {-1 * (letras[0] - letras[1])}.\nMultiplicacao = {letras[0] * letras[1]}\nExponenciacao {letras[0]}^{letras[1]} = {Math.Pow(letras[0], letras[1])}\nDivisao = {letras[0] / letras[1]}\nModulo {letras[0] % letras[1]}");
 
         // 5- Faça um programa para calcular o resultado da fórmula de baskara dados os valores de
         // a b e c .
