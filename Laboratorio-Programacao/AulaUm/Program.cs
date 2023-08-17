@@ -14,7 +14,7 @@ class Program
         double altura = 3.45;
         Console.WriteLine($"Altura: {altura.ToString("F2", CultureInfo.InvariantCulture)}");
 
-        DateTime data = new DateTime(1999, 09, 04);
+        DateTime data = DateTime.Parse("04/09/1999");
         Console.WriteLine($"Data: {data.ToString("dd/MM/yyyy")}");
 
         int ano = 12;
@@ -31,6 +31,7 @@ class Program
 
         double? temperatura = 22.5;
         Console.WriteLine($"Temperatura: {temperatura}");
+        
     }
 }
 
