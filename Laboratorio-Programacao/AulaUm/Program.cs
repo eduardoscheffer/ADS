@@ -31,6 +31,8 @@ class Program
 
         double? temperatura = 22.5;
         Console.WriteLine($"Temperatura: {temperatura}");
+
+        Console.WriteLine(temperatura.Equals(22.5));
         
     }
 }
