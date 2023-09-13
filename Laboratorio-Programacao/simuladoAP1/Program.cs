@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace simuladoAP1 // Note: actual namespace depends on the project name.
 {
     internal class Program
     {
@@ -16,7 +16,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 Console.WriteLine("|-------------Cálculo de Desempenho-----------|");
                 Console.ResetColor();
 
-                Console.Write("Digite o nome do aluno: ");
+                Console.Write("Digite o nome do fulano: ");
                 string studentName = Console.ReadLine();
 
                 Console.Write("Digite as três notas separadas por um espaço em branco cada: ");
