@@ -5,7 +5,8 @@ namespace AP1
     {
         public static string GetIMC(Pessoa pessoa)
         {
-            double imc = pessoa.Peso / Math.Pow(pessoa.Altura, 2);
+            // double imc = pessoa.Peso / Math.Pow(pessoa.Altura, 2);
+            double imc = CalculateIMC(pessoa);
 
             if(imc <= 18.5)
                 return "Abaixo do Peso";
