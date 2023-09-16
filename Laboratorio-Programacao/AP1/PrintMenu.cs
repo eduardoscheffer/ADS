@@ -7,7 +7,8 @@ namespace Ap1
 {
     public class PrintMenu
     {
-         public static void Print() {
+         public static void Print() 
+         {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("=====================================================================");
             Console.WriteLine("                         CALCULADOR DE IMC                           ");
@@ -20,7 +21,8 @@ namespace Ap1
 
         }
 
-        public static int Option() {
+        public static int Option() 
+        {
         int option;
         do
         {
@@ -29,17 +31,36 @@ namespace Ap1
                 Console.Write("Opção desejada: ");
                 option = int.Parse(Console.ReadLine());
 
-                if (option < 1 || option > 9)
+                if (option != 1 && option != 9)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Escolha uma dentre as opções disponíveis.");
+                    Console.ResetColor();
+                }
             }
             catch (FormatException)
-            {
+            {   
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Digite um número válido para seguir adiante.");
                 option = 0; // Atribui um valor inválido para continuar no loop
+                Console.ResetColor();
             }
         } while (option < 1 || option > 9);
 
         return option;
+        }
+
+        public static void Exit()
+        {
+            Console.Write("Saindo");
+            Thread.Sleep(1000);
+            Console.Write(".");
+            Thread.Sleep(500);
+            Console.Write(".");
+            Thread.Sleep(500);
+            Console.Write(".");
+            Thread.Sleep(500);
+            Console.Clear();
         }
     }
 }

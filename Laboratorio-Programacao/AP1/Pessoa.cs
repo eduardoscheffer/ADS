@@ -1,4 +1,3 @@
-
 using System.Globalization;
 
 namespace AP1
@@ -12,12 +11,13 @@ namespace AP1
 
         public double IMC 
         {
-            get {return ImcCalculator.GetIMC(this);}
+            get { return ImcCalculator.CalculateIMC(this); }
+            set { IMC = value; }
         }
 
         public string FaixaIMC
         {
-            get {return ImcCalculator.CalculateIMC(this);}
+            get { return ImcCalculator.GetIMC(this); }
         }
 
         public Pessoa() {}

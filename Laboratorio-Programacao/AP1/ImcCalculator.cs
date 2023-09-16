@@ -1,13 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace AP1
 {
-    public class ImcCalculator
+    public static class ImcCalculator
     {
-        public static string CalculateIMC(Pessoa pessoa)
+        public static string GetIMC(Pessoa pessoa)
         {
             double imc = pessoa.Peso / Math.Pow(pessoa.Altura, 2);
 
@@ -26,9 +22,6 @@ namespace AP1
             
         }
 
-        public static double GetIMC(Pessoa pessoa)
-        {
-            return pessoa.Peso / Math.Pow(pessoa.Altura, 2);
-        }
+        public static double CalculateIMC(Pessoa pessoa) => pessoa.Peso / Math.Pow(pessoa.Altura, 2);
     }
 }
