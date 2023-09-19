@@ -3,10 +3,10 @@ namespace AP1
 {
     public static class ImcCalculator
     {
-        public static string GetIMC(Pessoa pessoa)
+        public static string GetIMC(Pessoa pessoa) // recebe uma Pessoa como argumento
         {
             // double imc = pessoa.Peso / Math.Pow(pessoa.Altura, 2);
-            double imc = CalculateIMC(pessoa);
+            double imc = CalculateIMC(pessoa); // chama o metodo da propria classe e guarda numa variavl imc pra verificar a faixa do IMC
 
             if(imc <= 18.5)
                 return "Abaixo do Peso";
@@ -23,6 +23,6 @@ namespace AP1
             
         }
 
-        public static double CalculateIMC(Pessoa pessoa) => pessoa.Peso / Math.Pow(pessoa.Altura, 2);
+        public static double CalculateIMC(Pessoa pessoa) => pessoa.Peso / Math.Pow(pessoa.Altura, 2); // calculo do IMC da Pessoa passada no argumento
     }
 }

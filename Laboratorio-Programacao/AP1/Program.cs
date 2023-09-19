@@ -13,13 +13,13 @@ namespace Ap1
             
             do
             {
-                PrintMenu.Print();
-                option = PrintMenu.Option();
+                PrintMenu.Print(); // oprinta o menu pro usuaio
+                option = PrintMenu.Option(); // pega a opcao do usuario
 
-                switch (option)
+                switch (option) // switch com option - poderia ser com if else
                 {
                     case 9:
-                    PrintMenu.Exit();
+                    PrintMenu.Exit(); // quebra o loop e chama o metodo exit
                     break;
                 }
 
@@ -27,6 +27,7 @@ namespace Ap1
                 {
                     try
                     {
+                        // pega as informacoes do usuario:
                         Console.Write("NOME: ");
                         pessoa.Nome = Console.ReadLine();
     
@@ -39,7 +40,7 @@ namespace Ap1
                         Console.Write("ALTURA (m): ");
                         pessoa.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                     }
-                    catch (FormatException)
+                    catch (FormatException) // trata qualquer FormatException que der 
                     {   
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Digite uma entrada de dados válida.");
@@ -47,6 +48,7 @@ namespace Ap1
                         continue;
                     }
 
+                    // printa o relatorio
                     Console.WriteLine("===========================");
                     Console.WriteLine("Nome: " + pessoa.Nome);
                     Console.WriteLine("Idade: " + pessoa.Idade + " anos.");
@@ -54,12 +56,12 @@ namespace Ap1
                     Console.WriteLine("===========================");
                     Console.WriteLine();
 
-                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.ForegroundColor = ConsoleColor.DarkCyan; // troca a cor do console pra chamar a atencao
                     Console.Write("Gostaria de realizar outro serviço (y/n)? ");
                     Console.ResetColor();
-                    if (Console.ReadLine().ToUpper().StartsWith("Y"))
+                    if (Console.ReadLine().ToUpper().StartsWith("Y")) // caso o usuario digitar algo que começe com "Y": "yes, y, Y, YES, Yes etc"
                     {
-                        Console.Clear();
+                        Console.Clear(); // limpa o console e recomeça o loop (continue)
                         continue;
                     }
                     else 

@@ -50,12 +50,12 @@ namespace Ap1
         return option;
         }
 
-        public static void Exit()
+        public static void Exit() // logica que faz o Exit do programa
         {
             Console.Write("Saindo");
-            Thread.Sleep(1000);
+            Thread.Sleep(1000); // tempo na thread de 1s
             Console.Write(".");
-            Thread.Sleep(500);
+            Thread.Sleep(500); // tempo na thread de meio segundo
             Console.Write(".");
             Thread.Sleep(500);
             Console.Write(".");
