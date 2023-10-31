@@ -8,14 +8,14 @@ namespace AP2
     public class Equipe
     {
         public string NomeEquipe { get; set; }
-        public List<Jogador> Jogadores = new();
+        public List<Jogador> Jogadores = new(); // Lista de Jogadores já inicializada
 
-        public Equipe (string equipeName)
+        public Equipe (string equipeName) // construtor só pro nome
         {
             NomeEquipe = equipeName;
         }
 
-        public int PontosTotal()
+        public int PontosTotal() // metodo que vai em cada jogador e retorna o total dos pontos dele. Por fim, o metodo retorna a soma dos pontos de cada jogador (pontuacao da Equipe)
         {
             int totalPoints = 0;
 
@@ -24,7 +24,7 @@ namespace AP2
             return totalPoints;
         }
 
-        public void AdicionarJogador(Jogador player)
+        public void AdicionarJogador(Jogador player) // metodo pra adicionar jogador a Equipe(lista)
         {
             if (Jogadores.Count < 5)
                 Jogadores.Add(player);

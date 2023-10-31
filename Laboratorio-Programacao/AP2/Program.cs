@@ -13,7 +13,7 @@ internal class Program
 
             string escolha = Console.ReadLine();
 
-            if (escolha == "1")
+            if (escolha == "1") // controle de escolha pra criar um campeonato
             {
                 try
                 {
@@ -54,17 +54,17 @@ internal class Program
                     campeonato.IniciarPartida();
                     campeonato.Classificacao();
                 }
-                catch (Exception ex)
+                catch (Exception ex) // captura algum erro Exception.class lançado pelo programa e printa a mensagem dele somente pro usuario
                 {
                     Console.WriteLine($"Erro: {ex.Message}");
                 }
             }
-            else if (escolha == "2")
+            else if (escolha == "2") // quebra o loop se o usuario escolher 2
             {
                 Console.WriteLine("Saindo do programa...");
                 break;
             }
-            else
+            else // caso o usuario nao escolher 1 ou 2:
             {
                 Console.WriteLine("Opção inválida. Por favor, escolha uma opção válida.");
             }
