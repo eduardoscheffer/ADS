@@ -30,14 +30,14 @@ internal class Program
 
                     Campeonato campeonato = new Campeonato(nomeCampeonato);
 
-                    for (int i = 1; i <= n; i++)
+                    for (int i = 1; i <= n; i++) // iteracao pra pegar dados da equipe
                     {
                         Console.WriteLine($"Equipe #{i}");
                         Console.Write("Nome da Equipe: ");
                         string nomeEquipe = Console.ReadLine();
                         Equipe equipe = new Equipe(nomeEquipe);
 
-                        for (int j = 1; j <= 5; j++)
+                        for (int j = 1; j <= 5; j++) // iteracao aninhada pra pegar dados dos jogadores de cada equipe
                         {
                             Console.Write($"Jogador{j}: ");
                             string playerName = Console.ReadLine();
