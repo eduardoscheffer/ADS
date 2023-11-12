@@ -6,9 +6,9 @@ namespace TdeAula18
     {
         static void Main(string[] args)
         {
-            Animal animal = new("Animal", 20);
-            Cachorro cachorro = new("Cachorro", 20);
-            Gato gato = new("Gato", 20);
+            Animal animal = new("Animal", 20, 4);
+            Cachorro cachorro = new("Cachorro", 20, 4);
+            Gato gato = new("Gato", 20, 2);
 
             EmitirSons(animal, cachorro, gato);
         }

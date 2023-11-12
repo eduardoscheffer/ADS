@@ -7,13 +7,14 @@ namespace TdeAula18
 {
     public class Gato : Animal
     {
-        public Gato(string nome, int idade) : base(nome, idade)
+        public Gato(string nome, int idade, int numPatas) : base(nome, idade, numPatas)
         {
         }
 
         public override void EmitirSom()
         {
             Console.WriteLine("Miau");
+            ExibirNumeroDePatas();
         }
     }
 }
