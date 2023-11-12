@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace TdeAula18
 {
@@ -10,7 +11,16 @@ namespace TdeAula18
             Cachorro cachorro = new("Cachorro", 20, 4);
             Gato gato = new("Gato", 20, 2);
 
-            EmitirSons(animal, cachorro, gato);
+            // EmitirSons(animal, cachorro, gato);
+
+            List<Animal> animais = new List<Animal>{
+                new Cachorro("Spike", 1, 4),
+                new Gato("Black", 4, 2),
+                animal
+            };
+
+            animais.ForEach(animal => animal.EmitirSom());
+
         }
 
         static void EmitirSons(params Animal[] animals)
