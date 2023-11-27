@@ -43,12 +43,17 @@ Crie classes como SensorDeTemperatura e SensorDePressão implementando ISensor.
 
 */
 
+using TdeAula20;
+
 namespace Tde20;
 
 class Program
 {
     static void Main(string[] args)
     {
+        Circulo circ = new(10);
+
+        circ.CalcularArea();
         
     }
 }
