@@ -14,9 +14,9 @@ namespace TdeAula20
             _side = n;
         }
 
-        public override CalcularArea()
+        public override void CalcularArea()
         {
-
+            Console.WriteLine("Area calculada");
         }
     }
 }

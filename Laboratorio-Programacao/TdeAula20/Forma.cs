@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace TdeAula20
 {
-    abstract class Forma
+    public abstract class Forma
     {
-        public abstract void CalcularArea()
-        {
-        }
+        public abstract void CalcularArea();
+
     }
 }
